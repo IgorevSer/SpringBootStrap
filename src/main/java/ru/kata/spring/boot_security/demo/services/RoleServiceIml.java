@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public class RoleServiceIml implements RoleService {
-    RoleRepository roleRepository;
+    private RoleRepository roleRepository;
 
     @Autowired
     public void setRoleRepository(RoleRepository roleRepository) {
